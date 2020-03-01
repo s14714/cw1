@@ -18,7 +18,7 @@ namespace Cw1Apbd
             
             
             var client = new HttpClient();
-            HttpRequestMessage result = await client.GetAsync("https://www.pja.edu.pl");
+            HttpResponseMessage result = await client.GetAsync("https://www.pja.edu.pl");
 
             if (result.IsSuccessStatusCode)
             {
