@@ -6,3 +6,5 @@ git commit .m "sss"
 git push
 git pull
 
+
+ctrl . - visual podpowiedzi
